@@ -12,7 +12,7 @@ const App = () => {
     <div>
         <form>
           <input type="text" onChange={changed}/>
-          {<div>Hello {name}</div>}
+          {<p>Hello {name}</p>}
         </form>
     </div>
   )
